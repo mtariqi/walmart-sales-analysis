@@ -1,25 +1,34 @@
 # 🛒 Walmart Sales Analysis & Forecasting
 
 Core Technologies
+```
 https://img.shields.io/badge/Python-3.8%252B-blue
 https://img.shields.io/badge/Pandas-Data%2520Analysis-orange
 https://img.shields.io/badge/NumPy-Numerical%2520Computing-yellow
 https://img.shields.io/badge/Scikit--Learn-ML%2520Models-green
+```
 
 Machine Learning
+
+```
 https://img.shields.io/badge/XGBoost-Ensemble%2520Learning-darkgreen
 https://img.shields.io/badge/Statsmodels-Time%2520Series-purple
 https://img.shields.io/badge/Prophet-Forecasting-blue
+```
 
 Visualization
+```
 https://img.shields.io/badge/Matplotlib-Plotting-blue
 https://img.shields.io/badge/Seaborn-Statistical%2520Plots-red
 https://img.shields.io/badge/Plotly-Interactive%2520Viz-green
+```
 
 Development Tools
+```
 https://img.shields.io/badge/Jupyter-Notebooks-orange
 https://img.shields.io/badge/Git-Version%2520Control-red
 https://img.shields.io/badge/Docker-Containerization-blue
+```
 
 📈 Key Features Implemented
 Data Processing Pipeline
