@@ -1,0 +1,25 @@
+# Create a universal requirements that works with any Python version
+numpy
+pandas
+scipy
+scikit-learn
+
+# Visualization
+matplotlib
+seaborn
+
+# Jupyter
+jupyter
+jupyterlab
+ipykernel
+
+# Utilities
+python-dotenv
+tqdm
+joblib
+
+# Development
+pytest
+black
+flake8
+

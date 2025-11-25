@@ -1,0 +1,38 @@
+# Create requirements specifically for Python 3.13
+numpy>=2.0.0
+pandas>=2.2.0
+scipy>=1.14.0
+
+# Machine Learning
+scikit-learn>=1.5.0
+
+# Visualization
+matplotlib>=3.9.0
+seaborn>=0.13.2
+
+# Jupyter
+jupyter>=1.1.0
+jupyterlab>=4.2.0
+ipykernel>=6.29.0
+
+# Data Processing
+openpyxl>=3.1.0
+
+# Development Tools
+pytest>=8.0.0
+black>=24.0.0
+flake8>=7.0.0
+
+# Utilities
+python-dotenv>=1.0.0
+tqdm>=4.66.0
+joblib>=1.4.0
+
+# Build dependencies
+wheel>=0.43.0
+setuptools>=75.0.0
+
+# Optional: For advanced modeling (uncomment if needed)
+# xgboost>=2.0.0
+# lightgbm>=4.4.0
+
