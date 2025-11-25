@@ -1,4 +1,3 @@
-# Create main.py with proper content
 """
 Main entry point for Walmart Sales Analysis
 """
