@@ -3,8 +3,10 @@ from setuptools import setup, find_packages
 with open("README.md", "r", encoding="utf-8") as fh:
     long_description = fh.read()
 
-with open("requirements.txt", "r", encoding="utf-8") as fh:
-    requirements = [line.strip() for line in fh if line.strip() and not line.startswith("#")]
+# Read requirements, skipping comments and empty lines
+def read_requirements():
+    with open("requirements-compatible.txt", "r", encoding="utf-8") as f:
+        return [line.strip() for line in f if line.strip() and not line.startswith("#")]
 
 setup(
     name="walmart-sales-analysis",
@@ -28,20 +30,17 @@ setup(
         "Programming Language :: Python :: 3.10",
     ],
     python_requires=">=3.8",
-    install_requires=requirements,
+    install_requires=read_requirements(),
     extras_require={
         "dev": [
             "pytest>=7.0.0",
-            "pytest-cov>=3.0.0",
             "black>=22.0.0",
             "flake8>=4.0.0",
-            "mypy>=0.950",
-            "isort>=5.10.0",
         ],
-        "advanced": [
+        "full": [
+            "plotly>=5.0.0",
+            "openpyxl>=3.0.0",
             "xgboost>=1.5.0",
-            "lightgbm>=3.3.0",
-            "prophet>=1.1",
         ],
     },
     entry_points={
