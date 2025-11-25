@@ -1,0 +1,25 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+title: "Walmart Sales Analysis & Forecasting"
+abstract: "A comprehensive data analytics and machine learning pipeline for analyzing and forecasting Walmart store sales. This project demonstrates end-to-end data science workflow including data preprocessing, exploratory analysis, feature engineering, predictive modeling, and actionable insights generation for retail sales forecasting."
+authors:
+  - family-names: "Islam"
+    given-names: "Md Tariqul"
+    affiliation: "Independent Researcher"
+    orcid: "https://orcid.org/0009-0009-6545-8040"
+version: 1.0.0
+doi: 10.5281/zenodo.1234567
+date-released: 2024-11-25
+url: "https://github.com/mtariqi/walmart-sales-analysis"
+keywords:
+  - "sales-forecasting"
+  - "retail-analytics" 
+  - "machine-learning"
+  - "time-series-analysis"
+  - "data-science"
+  - "walmart"
+  - "predictive-modeling"
+  - "python"
+license: MIT
+repository-code: "https://github.com/mtariqi/walmart-sales-analysis"
+

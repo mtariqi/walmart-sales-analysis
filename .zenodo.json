@@ -1,0 +1,41 @@
+{
+  "title": "Walmart Sales Analysis & Forecasting",
+  "description": "A comprehensive data analytics and machine learning pipeline for analyzing and forecasting Walmart store sales across the United States. This project demonstrates end-to-end data science workflow including data preprocessing, exploratory analysis, feature engineering, predictive modeling, and actionable insights generation.",
+  "keywords": [
+    "sales-forecasting",
+    "retail-analytics",
+    "machine-learning",
+    "time-series-analysis",
+    "data-science",
+    "walmart",
+    "predictive-modeling",
+    "python",
+    "retail-sales"
+  ],
+  "license": "MIT",
+  "creators": [
+    {
+      "name": "Tariq, Muhammad",
+      "affiliation": "Independent Researcher",
+      "orcid": "0000-0000-0000-0000"
+    }
+  ],
+  "contributors": [],
+  "access_right": "open",
+  "upload_type": "software",
+  "communities": [
+    {
+      "identifier": "zenodo"
+    }
+  ],
+  "related_identifiers": [
+    {
+      "relation": "isSupplementTo",
+      "identifier": "https://github.com/mtariqi/walmart-sales-analysis"
+    }
+  ],
+  "version": "1.0.0",
+  "publication_date": "2024-11-25",
+  "language": "eng"
+}
+
