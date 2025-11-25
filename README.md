@@ -1,28 +1,73 @@
 # 🛒 Walmart Sales Analysis & Forecasting
 
-<div align="center">
+Core Technologies
+https://img.shields.io/badge/Python-3.8%252B-blue
+https://img.shields.io/badge/Pandas-Data%2520Analysis-orange
+https://img.shields.io/badge/NumPy-Numerical%2520Computing-yellow
+https://img.shields.io/badge/Scikit--Learn-ML%2520Models-green
 
-[![Python Version](https://img.shields.io/badge/python-3.8%2B-blue.svg)](https://www.python.org/downloads/)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![GitHub release](https://img.shields.io/github/release/mtariqi/walmart-sales-analysis.svg)](https://github.com/mtariqi/walmart-sales-analysis/releases/)
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.XXXXXXX.svg)](https://doi.org/10.5281/zenodo.XXXXXXX)
+Machine Learning
+https://img.shields.io/badge/XGBoost-Ensemble%2520Learning-darkgreen
+https://img.shields.io/badge/Statsmodels-Time%2520Series-purple
+https://img.shields.io/badge/Prophet-Forecasting-blue
 
-[![Build Status](https://img.shields.io/github/actions/workflow/status/YOUR_USERNAME/walmart-sales-analysis/python-tests.yml?branch=main)](https://github.com/mtariqi/walmart-sales-analysis/actions)
-[![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
-[![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://github.com/mtariqi/walmart-sales-analysis/graphs/commit-activity)
-[![GitHub issues](https://img.shields.io/github/issues/YOUR_USERNAME/walmart-sales-analysis.svg)](https://github.com/mtariqi/walmart-sales-analysis/issues/)
-[![GitHub pull requests](https://img.shields.io/github/issues-pr/YOUR_USERNAME/walmart-sales-analysis.svg)](https://github.com/mtariqi/walmart-sales-analysis/pulls/)
+Visualization
+https://img.shields.io/badge/Matplotlib-Plotting-blue
+https://img.shields.io/badge/Seaborn-Statistical%2520Plots-red
+https://img.shields.io/badge/Plotly-Interactive%2520Viz-green
 
-[![Pandas](https://img.shields.io/badge/pandas-%23150458.svg?style=flat&logo=pandas&logoColor=white)](https://pandas.pydata.org/)
-[![NumPy](https://img.shields.io/badge/numpy-%23013243.svg?style=flat&logo=numpy&logoColor=white)](https://numpy.org/)
-[![scikit-learn](https://img.shields.io/badge/scikit--learn-%23F7931E.svg?style=flat&logo=scikit-learn&logoColor=white)](https://scikit-learn.org/)
-[![Matplotlib](https://img.shields.io/badge/Matplotlib-%23ffffff.svg?style=flat&logo=Matplotlib&logoColor=black)](https://matplotlib.org/)
+Development Tools
+https://img.shields.io/badge/Jupyter-Notebooks-orange
+https://img.shields.io/badge/Git-Version%2520Control-red
+https://img.shields.io/badge/Docker-Containerization-blue
 
-![Stars](https://img.shields.io/github/stars/YOUR_USERNAME/walmart-sales-analysis?style=social)
-![Forks](https://img.shields.io/github/forks/YOUR_USERNAME/walmart-sales-analysis?style=social)
-![Watchers](https://img.shields.io/github/watchers/YOUR_USERNAME/walmart-sales-analysis?style=social)
+📈 Key Features Implemented
+Data Processing Pipeline
+Automated data validation and quality checks
 
-</div>
+Handling missing values and outliers
+
+Temporal feature extraction (day of week, month, year, holidays)
+
+Economic indicator integration
+
+Modeling Approaches
+Time Series Models: ARIMA, SARIMA for seasonal patterns
+
+Tree-based Models: Random Forest, XGBoost for non-linear relationships
+
+Ensemble Methods: Stacking and blending best performers
+
+Deep Learning: LSTM networks for sequence prediction
+
+Business Insights
+Store performance benchmarking
+
+Department-level sales drivers
+
+Holiday impact quantification
+
+Economic factor sensitivity analysis
+
+🎯 Expected Outcomes
+Technical Deliverables
+Production-ready forecasting pipeline
+
+Comprehensive model performance documentation
+
+Automated retraining and validation framework
+
+API endpoints for prediction services
+
+Business Impact
+15-20% improvement in inventory optimization
+
+Reduced stockouts and overstock situations
+
+Enhanced staff scheduling efficiency
+
+Data-driven decision making framework
+
 
 ---
 
