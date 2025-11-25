@@ -332,6 +332,24 @@ walmart-sales-analysis/
 
 ---
 
+## 📊 Sample Outputs
+
+The project includes sample models and visualizations in the `results/` directory:
+
+### Generated Visualizations (`results/figures/`)
+- Sales distribution analysis
+- Store performance comparisons  
+- Feature correlation heatmaps
+- Holiday impact analysis
+
+### Trained Models (`results/models/`)
+- Random Forest sales forecasting model
+- Model performance metrics
+- Feature importance analysis
+
+### Regenerate Samples
+```bash
+python generate_sample_outputs.py
 ## 🧪 Testing
 
 Run the test suite:
